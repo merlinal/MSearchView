@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#EE9572">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="title"
+            android:textColor="@android:color/white" />
+
+        <com.merlin.view.MSearchView
+            android:id="@+id/MSearchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="4dp"
+            app:clearIcon="@drawable/delete"
+            app:expanded="false"
+            app:fromColor="#0000cd00"
+            app:hint="@string/app_name"
+            app:hintColor="#ff999999"
+            app:searchExpandIcon="@drawable/search_grey"
+            app:searchShrinkIcon="@drawable/search_white"
+            app:textColor="#00cd00"
+            app:toColor="#ffffffff" />
+    </RelativeLayout>
+</LinearLayout>
