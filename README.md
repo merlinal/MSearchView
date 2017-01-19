@@ -31,5 +31,5 @@
 clearIcon：清除输入框图标。（输入框若有内容，则清楚输入框；若无，收缩。）
 
 
-![image](https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView1.jpg?raw=true)
-![image](https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView2.jpg?raw=true)
+![image](https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView1.jpg?raw=true =240x360)
+![image](https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView2.jpg?raw=true =240x360)
