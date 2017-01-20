@@ -1,6 +1,26 @@
 # MSearchView
 
-#### 示例
+###依赖
+Add it in your root build.gradle at the end of repositories:
+<br>
+
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+ Add the dependency
+
+```
+	dependencies {
+	    compile 'com.github.merlinal:MSearchView:1.0.0'
+	}
+```
+
+###示例
 
 ```
        <com.merlin.view.MSearchView
@@ -33,6 +53,9 @@ clearIcon：清除输入框图标。（输入框若有内容，则清楚输入�
 #### 效果图
 只是截屏，没法看到动画了...
 <br><br>
-<img src="https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView1.jpg?raw=true" width = "600" height = "150" align=center />
+<img src="https://raw.githubusercontent.com/merlinal/Images/master/MSearchView/MSerachView1.jpg" width = "600" height = "150" align=center />
 <br><br>
-<img src="https://github.com/zhAoAnliN/Images/blob/master/MSearchView/MSerachView2.jpg?raw=true" width = "600" height = "150" align=center />
+<img src="https://raw.githubusercontent.com/merlinal/Images/master/MSearchView/MSerachView2.jpg" width = "600" height = "150" align=center />
+
+
+
